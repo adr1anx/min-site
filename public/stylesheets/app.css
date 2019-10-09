@@ -2,6 +2,10 @@
   margin-top: 50px;
   font-size: 20px;
 }
-p{
-  margin: 15px;
+.navbar{
+  margin: 0;
+  padding: 0;
+}
+.navbar-expand-sm .navbar-nav .nav-link{
+  padding-left: 0;
 }

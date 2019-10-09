@@ -12,5 +12,18 @@
     %script{:src => "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js", :integrity => "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM", :crossorigin => "anonymous"}
 
   %body
-    .container
+    #main.container
+      %nav.navbar.navbar-expand-sm
+        %div.collapse.navbar-collapse
+          .ml-auto
+            %ul.navbar-nav
+              %li.nav-item
+                %a.nav-link{:href => '/gardening'} Gardening
+              %li.nav-item
+                %a.nav-link{:href=>"/work"} Work
+              %li.nav-item
+                %a.nav-link{:href => '/resume'} Resume
+              %li.nav-item
+                %a.nav-link{:href => 'mailto:a.titus1@gmail.com'} Contact
+
       =yield

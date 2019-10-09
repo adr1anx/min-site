@@ -5,5 +5,5 @@ ruby '2.6.1'
 
 gem 'rack'
 gem 'sinatra'
+gem 'sinatra-contrib'
 gem 'haml'
-gem 'pg'

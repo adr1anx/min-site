@@ -1,3 +1,6 @@
+body{
+  margin-top: 15px;
+}
 #main{
   margin-top: 50px;
   font-size: 20px;
@@ -8,4 +11,7 @@
 }
 .navbar-expand-sm .navbar-nav .nav-link{
   padding-left: 0;
+}
+.footer{
+  margin-top: 15px;
 }

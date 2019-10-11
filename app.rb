@@ -5,8 +5,8 @@ get "/" do
   haml :index
 end
 
-get "/gardening" do
-  haml :gardening
+get "/projects" do
+  haml :projects
 end
 get "/work" do
   haml :work

@@ -17,5 +17,5 @@ get "/resume" do
 end
 
 get '/download/:filename' do |filename|
-  send_file "./files/#{filename}", :filename => filename, :type => 'Application/octet-stream'
+  send_file "./files/#{filename}", :filename => filename, :type => 'Application/pdf', :disposition => 'inline'
 end
